@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elias Mithamo — Administrative & Writing Professional</title>
+  <meta name="description" content="Elias Mithamo — reliable, detail-oriented administrative and writing professional based in Nairobi, Kenya." />
+
+  <!-- Fonts: a monospace face for the "typed" feel, a clean sans for reading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__mark">E.M.</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO — the letterhead ============ -->
+  <main>
+    <section class="hero" id="top">
+      <div class="hero__paper">
+        <div class="hero__stamp" aria-hidden="true">FILED</div>
+
+        <!--
+          Profile picture: this is a placeholder initials avatar.
+          To use your own photo instead:
+          1. Add your photo file to this folder (e.g. "profile.jpg")
+          2. Replace the <div class="hero__avatar">EM</div> line below with:
+             <img class="hero__avatar" src="profile.jpg" alt="Elias Mithamo" />
+        -->
+        <div class="hero__avatar" aria-hidden="true">EM</div>
+
+        <p class="hero__dateline">Nairobi, Kenya — <span id="today"></span></p>
+        <p class="hero__salutation">Dear visitor,</p>
+        <h1 class="hero__typed">
+          <span id="typedName"></span><span class="cursor" aria-hidden="true">|</span>
+        </h1>
+        <p class="hero__role">Administrative &amp; Writing Professional</p>
+        <p class="hero__body">
+          I'm Elias — motivated, reliable, and detail-oriented, with a habit of leaving
+          things more organized than I found them. I help people and small teams keep
+          their documents, research, and communication running smoothly, without missed
+          deadlines or dropped details.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Get in touch</a>
+          <a href="#experience" class="btn btn--ghost">See my experience</a>
+        </div>
+        <p class="hero__sign">— E. Mithamo</p>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="section__head">
+        <span class="eyebrow">Cover note</span>
+        <h2>A little about how I work</h2>
+      </div>
+      <div class="about__grid">
+        <p class="about__lead">
+          Since 2023 I've worked as a freelance administrative and writing assistant,
+          supporting clients with document preparation, research, and organization.
+          I'm quick to pick up new tools and systems, comfortable working independently
+          or as part of a team, and I treat deadlines and confidential information with
+          the same seriousness I'd want if I were the client.
+        </p>
+        <ul class="about__facts">
+          <li><strong>Based in</strong><span>Nairobi, Kenya</span></li>
+          <li><strong>Working since</strong><span>2023</span></li>
+          <li><strong>Languages</strong><span>English, Swahili — both fluent</span></li>
+          <li><strong>Available for</strong><span>Remote &amp; freelance work</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS — the card index ============ -->
+    <section class="section section--muted" id="skills">
+      <div class="section__head">
+        <span class="eyebrow">Card index</span>
+        <h2>What I bring to the desk</h2>
+      </div>
+      <div class="card-index" id="cardIndex">
+        <!-- Cards are duplicated with tab "punch holes" for the filed-card look -->
+        <article class="card">
+          <span class="card__tab">A</span>
+          <h3>Communication</h3>
+          <p>Clear, professional verbal and written communication with clients and teams.</p>
+        </article>
+        <article class="card">
+          <span class="card__tab">B</span>
+          <h3>Organization</h3>
+          <p>Time management, record-keeping, and data entry that stays accurate under deadline.</p>
+        </article>
+        <article class="card">
+          <span class="card__tab">C</span>
+          <h3>Research</h3>
+          <p>Thorough internet research, fact-checking, and organizing findings clearly.</p>
+        </article>
+        <article class="card">
+          <span class="card__tab">D</span>
+          <h3>Tools</h3>
+          <p>Confident with Microsoft Word, Excel, and PowerPoint for day-to-day document work.</p>
+        </article>
+        <article class="card">
+          <span class="card__tab">E</span>
+          <h3>Client care</h3>
+          <p>Customer service and support with a calm, professional tone, even under pressure.</p>
+        </article>
+        <article class="card">
+          <span class="card__tab">F</span>
+          <h3>Discretion</h3>
+          <p>Careful handling of sensitive or confidential information, every time.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE — the ledger ============ -->
+    <section class="section" id="experience">
+      <div class="section__head">
+        <span class="eyebrow">Ledger</span>
+        <h2>Experience on record</h2>
+      </div>
+      <div class="ledger">
+        <div class="ledger__row">
+          <div class="ledger__when">
+            <span class="ledger__year">2023</span>
+            <span class="ledger__to">— Present</span>
+          </div>
+          <div class="ledger__what">
+            <h3>Freelance Administrative &amp; Writing Assistant</h3>
+            <p class="ledger__employer">Self-employed</p>
+            <ul>
+              <li>Assisted clients with document preparation and formatting.</li>
+              <li>Conducted online research and organized information accurately.</li>
+              <li>Managed multiple projects while meeting strict deadlines.</li>
+              <li>Communicated professionally with clients to understand project requirements.</li>
+              <li>Maintained confidentiality and handled sensitive information responsibly.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT — the reply card ============ -->
+    <section class="section section--muted" id="contact">
+      <div class="section__head">
+        <span class="eyebrow">Reply card</span>
+        <h2>Let's work together</h2>
+      </div>
+      <div class="reply-card">
+        <p>
+          Have a document that needs polishing, research that needs doing, or a project
+          that needs an extra pair of organized hands? I'd like to hear about it.
+        </p>
+        <div class="reply-card__details">
+          <a class="reply-card__item" href="mailto:eliasmithamo30@gmail.com">
+            <span>Email</span>
+            eliasmithamo30@gmail.com
+          </a>
+          <a class="reply-card__item" href="tel:+254704564548">
+            <span>Phone</span>
+            +254 704 564 548
+          </a>
+          <div class="reply-card__item">
+            <span>Location</span>
+            Nairobi, Kenya
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Elias Mithamo. Built by hand, filed carefully.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
